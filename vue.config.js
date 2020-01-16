@@ -14,7 +14,7 @@ const enableAnalytics =
   process.env.ANALYTICS;
 
 module.exports = {
-  baseUrl: './',
+  publicPath: './',
   pages: {
     admin: './src/admin/index.js',
     component: './src/component/index.js',
